@@ -1,22 +1,17 @@
 # 📚 E-Learning Smart
 
-Aplikasi web e-learning berbasis **Flutter (Dart)** dengan tema ungu soft, terinspirasi dari layout dashboard modern (sidebar kiri, panel jadwal & teman kanan, kartu mata pelajaran bergradasi warna). Dibuat untuk Tugas Besar Mobile/Web Programming.
+Aplikasi web e-learning berbasis **Flutter (Dart)** dengan tema ungu soft. Dibuat untuk Tugas Besar Mobile/Web Programming.
 
 ## ✨ Fitur
 
 - **Dashboard** — ringkasan Level, XP, Streak, progres belajar, dan daftar mata pelajaran.
-- **9 Mata Pelajaran lengkap**: Bahasa Indonesia, Matematika, Bahasa Inggris, Fisika, Biologi, Sejarah, Pendidikan Agama, Kimia, Geografi — masing-masing punya **materi teks lengkap + gambar + link video pembelajaran**.
+- **9 Mata Pelajaran lengkap**: Bahasa Indonesia, Matematika, Bahasa Inggris — masing-masing punya **materi teks lengkap + gambar + link video pembelajaran**.
 - **Kuis interaktif** per mata pelajaran (5 soal pilihan ganda), dengan feedback benar/salah, penjelasan jawaban, dan skor akhir.
 - **Sistem XP & Level** — skor kuis dikonversi menjadi XP, level siswa naik otomatis.
 - **Papan Peringkat (Leaderboard)** — membandingkan XP dengan teman sekelas.
 - **Profil Siswa** — data siswa, level, XP, dan riwayat nilai kuis per mapel.
 - **Teman Sekelas** — daftar profil siswa lain yang tergabung di kelas.
-- **Sidebar navigasi** ala dashboard admin modern + responsif (berubah jadi Drawer di layar sempit).
 - Logo & branding "E-Learning Smart" dengan skema warna ungu soft.
-
-## 🎨 Desain
-
-Warna utama: **ungu soft `#7C6FEF`** dengan aksen teal, biru, pink, oranye, hijau pada tiap kartu mata pelajaran — mengikuti gaya referensi dashboard modern & Ruangguru/Duolingo (rounded card, gradient, micro-interaction).
 
 ## 🛠️ Struktur Folder
 
@@ -88,4 +83,4 @@ Hasil build ada di folder `build/web`, siap di-hosting ke Firebase Hosting, Netl
 - Skor kuis & XP saat ini disimpan di memori (hilang saat refresh). Untuk persistensi, tambahkan `shared_preferences` (lokal) atau Firebase Auth + Firestore (multi-user, role Siswa/Guru/Admin).
 - Video pembelajaran memakai link pencarian YouTube sebagai placeholder — ganti `videoUrl` di `lib/data/dummy_data.dart` dengan link video asli sesuai kebutuhan.
 
-Selamat mengerjakan Tugas Besar, semoga lancar! 🎓
+Selamat mengerjakan, semoga lancar! 🎓
